@@ -1,8 +1,7 @@
 # Page settings
-
-baseURL = "http://example.org/"
+baseURL = "http://www.patasicarbon.ca/"
+title = "Patasi Carbon Bike Frames Repair"
 languageCode = "en"
-title = "Business Frontpage - Start Bootstrap Template"
 theme = "hugo-business-frontpage-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
