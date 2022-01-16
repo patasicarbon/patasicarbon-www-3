@@ -1,54 +1,43 @@
 # Page settings
-baseURL = "http://www.patasicarbon.ca/"
-title = "Patasi Carbon Bike Frames Repair"
+baseURL = ""
+relativeURLs = true
+uglyURLs = true
+canonifyURLs = true
+
+title = "Patasi Carbon Frame Repairs"
 languageCode = "en"
 theme = "hugo-business-frontpage-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
-
-
-
-
-
 
 [params]
-    author = "CowboySmall"
-    description = "Business Frontpage - A business home page starter template for Bootstrap 4 featuring marketing boxes and a full width image header"
-
-
-
-
-
+author = "Peter Patasi"
+description = "Carbon Frame Repairs"
+keywords = "carbon frame repair smith falls ontario kingston ottawa toronto montreal eastern ontario western quebec affordable prices peter patasi"
 
     [params.navbar]
-        name = "Start Bootstrap"
+        name = "Carbon Frame Repairs"
         url = "#"
 
         [[params.navbar.nav]]
         current = true
         name = "Home"
-        url = "#"
+        url = "#home"
         [[params.navbar.nav]]
         name = "About"
-        url = "#"
+        url = "#about"
         [[params.navbar.nav]]
         name = "Services"
-        url = "#"
+        url = "#services"
+       [[params.navbar.nav]]
+        name = "Testemonials"
+        url = "#testemonials"        
         [[params.navbar.nav]]
         name = "Contact"
         url = "#"
 
 
-
-
-
-
     [params.header]
-        name = "Business Name or Tagline"
-        tagline = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non possimus ab labore provident mollitia. Id assumenda voluptate earum corporis facere quibusdam quisquam iste ipsa cumque unde nisi, totam quas ipsam."
-
-
-
-
+        name = "Patasi Carbon Frame Repairs Testing"
+        tagline = "Your carbon repair specialist at affordable price in Eastern Ontario"
 
 
     [params.summary]
@@ -57,21 +46,17 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [params.summary.description]
 
         [[params.summary.description.items]]
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!"
+        description = "I am your carbon repair specialist at affordable price"
         [[params.summary.description.items]]
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum."
+        description = "I service all Eastern and Southern Ontario as well as Western Quebec, including Toronto, Kingston, Ottawa and Montreal."
 
 
         [params.summary.contact]
-        name = "Start Bootstrap"
-        address1 = "3481 Melrose Place"
-        address2 = "Beverly Hills, CA 90210"
-        phone = "(123) 456-7890"
-        email = "name@example.com"
-
-
-
-
+        name = "Patasi Carbon Frame Repairs"
+        address1 = "RR1 Bacchus Island"
+        address2 = "Smiths Falls, ON  K7A 5B8, Canada"
+        phone = "(613) 283-1645"
+        email = "patasiturbo@gmail.com"
 
 
     [params.projects]
@@ -86,71 +71,63 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Card title 1"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
         url = "#"
-        # image = "image.png"
+        image = "image.png"
         [[params.projects.sections.rows.items]]
         title = "Card title 2"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
         url = "#"
-        # image = "image.png"
-        [[params.projects.sections.rows.items]]
-        title = "Card title 3"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
-        url = "#"
-        # image = "image.png"
+        image = "image.png"
+
 
         [[params.projects.sections.rows]]
         # title = "Section 1, Row 2"
 
         [[params.projects.sections.rows.items]]
-        title = "Card title 4"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
-        url = "#"
-        # image = "image.png"
-        [[params.projects.sections.rows.items]]
-        title = "Card title 5"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
-        url = "#"
-        # image = "image.png"
-
-
-        [[params.projects.sections]]
-        # title = "Section 2"
-
-        [[params.projects.sections.rows]]
-        # title = "Section 2, Row 1"
-
-        [[params.projects.sections.rows.items]]
-        title = "Card title 1"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
-        url = "#"
-        # image = "image.png"
-        [[params.projects.sections.rows.items]]
-        title = "Card title 2"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
-        url = "#"
-        # image = "image.png"
-        [[params.projects.sections.rows.items]]
         title = "Card title 3"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
-        url = "#"
-        # image = "image.png"
-
-        [[params.projects.sections.rows]]
-        # title = "Section 2, Row 2"
-
-        [[params.projects.sections.rows.items]]
-        title = "Card title 4"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
         url = "#"
-        # image = "image.png"
+        image = "image.png"
+        [[params.projects.sections.rows.items]]
+        title = "Card title 4"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
+        url = "#"
+        image = "image.png"
 
 
-
-
+        #        [[params.projects.sections]]
+        #        # title = "Section 2"
+        #
+        #        [[params.projects.sections.rows]]
+        #        # title = "Section 2, Row 1"
+        #
+        #        [[params.projects.sections.rows.items]]
+        #        title = "Card title 1"
+        #        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
+        #        url = "#"
+        #        # image = "image.png"
+        #        [[params.projects.sections.rows.items]]
+        #        title = "Card title 2"
+        #        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
+        #        url = "#"
+        #        # image = "image.png"
+        #        [[params.projects.sections.rows.items]]
+        #        title = "Card title 3"
+        #        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
+        #        url = "#"
+        #        # image = "image.png"
+        #
+        #        [[params.projects.sections.rows]]
+        #        # title = "Section 2, Row 2"
+        #
+        #        [[params.projects.sections.rows.items]]
+        #        title = "Card title 4"
+        #        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
+        #        url = "#"
+        #        # image = "image.png"
 
 
     [params.footer]
-        copyright = "Your Website"
+        copyright = "Copyright &copy; 2021 by Patasi Carbon"
 
 
 
